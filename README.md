@@ -1,13 +1,22 @@
 # Traffic Sign Detection and Edge Deployment Analysis (YOLO11n)
 
-## 📑 Table of Contents
-- [Project Overview](#-project-overview)
-- [Dataset & Model](#-dataset--model)
-- [Quick Start](#-quick-start)
-- [Training & Evaluation](#-training--evaluation)
-- [Edge Deployment: Challenges & Reflection](#️-edge-deployment-challenges--reflection)
+## 📁 Repository Structure
 
----
+
+.
+├── assets/                  # Images and media for README
+├── data/                    # Dataset configurations and samples
+│   ├── sample/              # Sample images for quick testing
+│   └── indicator.yaml       # YOLO dataset config file
+├── scripts/                 # Core execution scripts
+│   ├── train.py             # Script for model training
+│   └── inference.py         # Script for model evaluation and inference
+├── weights/                 # Pre-trained and fine-tuned model weights
+│   └── best.pt              # Best weights obtained from training
+├── .gitignore               # Ignored files (e.g., cache, large datasets)
+├── requirements.txt         # Python environment dependencies
+└── README.md                # Project documentation
+
 ## 📌 Project Overview
 This repository contains the visual perception module for an autonomous vehicle competition. The primary objective is to train a lightweight object detection model (YOLO11n) to identify five categories of traffic signs under varying environmental conditions, and attempt hardware deployment on the Horizon Robotics RDK X5 edge computing board.
 
