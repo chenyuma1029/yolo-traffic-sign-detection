@@ -1,5 +1,13 @@
 # Traffic Sign Detection and Edge Deployment Analysis (YOLO11n)
 
+## 📑 Table of Contents
+- [Project Overview](#-project-overview)
+- [Dataset & Model](#-dataset--model)
+- [Quick Start](#-quick-start)
+- [Training & Evaluation](#-training--evaluation)
+- [Edge Deployment: Challenges & Reflection](#️-edge-deployment-challenges--reflection)
+
+---
 ## 📌 Project Overview
 This repository contains the visual perception module for an autonomous vehicle competition. The primary objective is to train a lightweight object detection model (YOLO11n) to identify five categories of traffic signs under varying environmental conditions, and attempt hardware deployment on the Horizon Robotics RDK X5 edge computing board.
 
