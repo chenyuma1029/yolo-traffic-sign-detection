@@ -1,0 +1,9 @@
+images/
+labels/
+*.zip
+*.tar.gz
+*.cache
+yolo11n.pt
+__pycache__/
+*.pyc
+.DS_Store
