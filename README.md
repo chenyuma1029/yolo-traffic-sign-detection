@@ -16,6 +16,7 @@
 ├── .gitignore               # Ignored files (e.g., cache, large datasets)
 ├── requirements.txt         # Python environment dependencies
 └── README.md                # Project documentation
+```
 
 ## 📌 Project Overview
 This repository contains the visual perception module for an autonomous vehicle competition. The primary objective is to train a lightweight object detection model (YOLO11n) to identify five categories of traffic signs under varying environmental conditions, and attempt hardware deployment on the Horizon Robotics RDK X5 edge computing board.
