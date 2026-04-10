@@ -2,7 +2,7 @@
 
 ## 📁 Repository Structure
 
-
+```text
 .
 ├── assets/                  # Images and media for README
 ├── data/                    # Dataset configurations and samples
